@@ -1,0 +1,294 @@
+index: 1
+name: Light Heal
+cost: 3
+description: Restore 30 HP to another party member
+message1: used Light Heal!
+failure: wasn't affected!
+affect_ally
+up_HP
+basis_effect: 30
+basic_success: 100
+hit: 0
+mind: 0
+variance: 0
+
+index: 2
+name: Heal
+cost: 6
+description: Restore 120 HP to another party member
+message1: used Heal!
+failure: wasn't affected!
+affect_ally
+up_HP
+basis_effect: 120
+basic_success: 100
+hit: 0
+mind: 0
+variance: 0
+
+index: 3
+name: Reconstruct
+cost: 12
+description: Restore 480 HP to another party member
+message1: used Reconstruct!
+failure: wasn't affected!
+affect_ally
+up_HP
+basis_effect: 480
+basic_success: 100
+hit: 0
+mind: 0
+variance: 0
+
+index: 4
+name: Light Heal Party
+cost: 5
+description: Restore 20 HP to the rest of the party
+message1: used Light Heal Party!
+failure: wasn't affected!
+affect_allies
+up_HP
+basis_effect: 20
+basic_success: 100
+hit: 0
+mind: 0
+variance: 0
+
+index: 5
+name: Heal Party
+cost: 10
+description: Restore 80 HP to the rest of the party
+message1: used Heal Party!
+failure: wasn't affected!
+affect_allies
+up_HP
+basis_effect: 80
+basic_success: 100
+hit: 0
+mind: 0
+variance: 0
+
+index: 6
+name: Return to Original
+cost: 20
+description: Restore 320 HP to the rest of the party
+message1: used Return to Original!
+failure: wasn't affected!
+affect_allies
+up_HP
+basis_effect: 320
+basic_success: 100
+hit: 0
+mind: 0
+variance: 0
+
+index: 7
+name: Cardiac Massage
+cost: 5
+description: Low chance of reviving an ally
+message1: used Cardiac Massage!
+failure: wasn't affected!
+affect_ally
+basis_effect: 10
+basic_success: 50
+hit: 0
+mind: 0
+variance: 0
+cure: K.O.
+
+index: 8
+name: Stone Throw
+cost: 1
+description: Inflicts low physical damage on one enemy
+message1: used Stone Throw!
+failure: dodged out of the way!
+affect_enemy
+do_HP
+basis_effect: 3
+basic_success: 80
+type: physical
+hit: 10
+mind: 0
+variance: 4
+
+index: 9
+name: Barrage Rush
+cost: 6
+description: Damages the enemy with a barrage of punches (S)
+message1: used Barrage Rush!
+failure: dodged out of the way!
+affect_enemy
+range: 1
+do_HP
+basis_effect: 25
+basic_success: 100
+hit: 8
+mind: 3
+variance: 4
+cause: Blowback
+
+index: 10
+name: Mach Rush
+cost: 12
+description: Intense damage to the enemy (S)
+message1: used Mach Rush!
+failure: dodged out of the way!
+affect_enemy
+range: 1
+do_HP
+basis_effect: 75
+basic_success: 100
+hit: 8
+mind: 3
+variance: 4
+cause: Blowback
+
+index: 11
+name: Ball Bearing
+cost: 12
+description: Flings a ball bearing at the enemy (M)
+message1: used Ball Bearing!
+failure: dodged out of the way!
+affect_enemy
+range: 2
+do_HP
+basis_effect: 30
+basic_success: 80
+type: physical
+hit: 10
+mind: 0
+variance: 4
+
+index: 12
+name: Angry Healing
+cost: 15
+description: Restore 10 HP to the enemy, but debuffs their attack and defense
+message1: used Angry Healing!
+failure: wasn't affected!
+affect_enemy
+up_HP
+do_pow
+do_dur
+basis_effect: 10
+basic_success: 75
+hit: 0
+mind: 0
+variance: 0
+
+index: 13
+name: DORA Rush
+cost: 20
+description: Massive damage to a single enemy (S)
+message1: used DORA Rush!
+failure: dodged out of the way!
+affect_enemy
+range: 1
+do_HP
+basis_effect: 180
+basic_success: 100
+hit: 8
+mind: 3
+variance: 4
+cause: Blowback
+
+index: 14
+name: Full Restore
+cost: 28
+description: Revives an ally from K.O. with 100% HP
+message1: used Full Restore!
+failure: wasn't affected!
+affect_ally
+basis_effect: 100
+basic_success: 100
+hit: 0
+mind: 0
+variance: 0
+cure: K.O.
+
+index: 15
+name: Homing Projectile
+cost: 30
+description: Intense physical damage that ignores defenses
+message1: used Homing Projectile!
+failure: wasn't affected!
+affect_enemy
+do_HP
+ignore_defense
+basis_effect: 80
+basic_success: 100
+type: physical
+hit: 10
+mind: 3
+variance: 4
+cause: Dizzy
+cause: Fear
+cause: Blowback
+cause: Bleeding
+
+index: 16
+name: Assault
+cost: 15
+description: Damaging assault on a single enemy (M)
+message1: used Assault!
+failure: dodged out of the way!
+affect_enemy
+range: 2
+do_HP
+basis_effect: 35
+basic_success: 90
+hit: 5
+mind: 3
+variance: 4
+cause: Fear
+
+index: 17
+name: DORA DORA Rush
+cost: 20
+description: Damages the entire enemy party (S)
+message1: used DORA DORA Rush!
+failure: dodged out of the way!
+affect_enemies
+range: 1
+do-HP
+basis_effect: 150
+basic_success: 90
+hit: 10
+mind: 3
+variance: 10
+cause: Fear
+cause: Blowback
+
+index: 18
+name: Push it to the Limit
+cost: 100
+description: Uses 100% of your potential
+message1: tapped into their potential and pushed their abilities to the limit!
+failure: wasn't affected!
+affect_self
+up_HP
+up_pow
+up_dur
+up_spi
+up_spe
+basis_effect: 30
+basic_success: 100
+hit: 0
+mind: 5
+variance: 3
+cure: Poison
+cure: Darkness
+cure: Dissolve
+cure: Eagle
+cure: Specials
+cure: Stand Pursued
+cure: Pursued
+cure: Insects
+cure: Bugs
+cure: Swarmed
+cure: Drunk
+cure: Ripple
+cure: On Fire
+cure: No Breath
+cure: Digest
+cure: Bleeding
+cure: Off Guard

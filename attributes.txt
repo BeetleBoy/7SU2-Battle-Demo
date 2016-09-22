@@ -1,0 +1,95 @@
+index: 1
+name: Short
+A: 150
+B: 125
+C: 75
+D: 40
+E: 0
+
+index: 2
+name: Middle
+A: 130
+B: 115
+C: 100
+D: 75
+E: 0
+
+index: 3
+name: Long
+A: 100
+B: 100
+C: 100
+D: 75
+E: 50
+
+index: 4
+name: Physical
+A: 120
+B: 100
+C: 75
+D: 50
+E: 0
+
+index: 5
+name: Fire
+A: 200
+B: 150
+C: 100
+D: 50
+E: 0
+
+index: 6
+name: Ice
+A: 200
+B: 150
+C: 100
+D: 50
+E: 0
+
+index: 7
+name: Electric
+A: 200
+B: 150
+C: 100
+D: 50
+E: 0
+
+index: 8
+name: Water
+A: 200
+B: 150
+C: 100
+D: 50
+E: 0
+
+index: 9
+name: Earth
+A: 200
+B: 150
+C: 100
+D: 50
+E: 0
+
+index: 10
+name: Wind
+A: 200
+B: 150
+C: 100
+D: 50
+E: 0
+
+index: 11
+name: Light
+A: 200
+B: 150
+C: 100
+D: 50
+E: 0
+
+index: 12
+name: Dark
+A: 200
+B: 150
+C: 100
+D: 50
+E: 0

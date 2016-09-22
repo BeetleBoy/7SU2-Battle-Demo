@@ -1,0 +1,1302 @@
+index: 1
+name: K.O.
+class: movement
+priority: 100
+limit: battle
+A: 80
+B: 60
+C: 40
+D: 10
+E: 0
+ally_mess: was knocked out cold!
+enem_mess: was knocked out cold!
+reco_mess: got back up!
+
+index: 2
+name: Poison
+class: movement
+priority: 50
+limit: restriction
+A: 90
+B: 70
+C: 50
+D: 30
+E: 0
+ally_mess: was poisoned!
+enem_mess: was poisoned!
+alre_mess: is already poisoned!
+reco_mess: recovered from the poison!
+HP_down_trn_pc: 5
+HP_down_trn_pt: 1
+HP_down_map_st: 4
+HP_down_map_pt: 1
+
+index: 3
+name: Darkness
+class: combat
+priority: 51
+limit: restriction
+A: 90
+B: 70
+C: 50
+D: 30
+E: 0
+ally_mess: was shrouded in darkness!
+enem_mess: was shrouded in darkness!
+alre_mess: is already blinded!
+reco_mess: regained their sight!
+nat_heal_trn: 3
+nat_heal_cha: 20
+hit_rate: 20
+
+index: 4
+name: Sealed
+class: combat
+priority: 52
+limit: restriction
+A: 90
+B: 70
+C: 50
+D: 30
+E: 0
+ally_mess:'s Stand was sealed!
+enem_mess:'s Stand was sealed!
+alre_mess: is already sealed!
+reco_mess: can use their Stand again!
+nat_heal_trn: 3
+nat_heal_cha: 40
+hit_heal_cha: 10
+cant_use: mind
+stop_mind: 1
+
+index: 5
+name: Berserk
+class: combat
+priority: 53
+limit: enemy
+A: 80
+B: 60
+C: 40
+D: 20
+E: 0
+ally_mess: went berserk!
+enem_mess: went berserk!
+alre_mess: is already going berserk!
+regu_mess: is going berserk!
+reco_mess: calmed down!
+nat_heal_trn: 3
+nat_heal_cha: 30
+hit_heal_cha: 25
+stat_half: dur
+hit_rate: 50
+
+index: 6
+name: Confused
+class: combat
+priority: 54
+limit: ally
+A: 80
+B: 60
+C: 40
+D: 20
+E: 0
+ally_mess: became confused!
+enem_mess: became confused!
+alre_mess: is already confused!
+reco_mess: snapped out of it!
+nat_heal_trn: 3
+nat_heal_cha: 30
+hit_heal_cha: 25
+
+index: 7
+name: Sleeping
+class: combat
+priority: 55
+limit: battle
+A: 90
+B: 70
+C: 50
+D: 30
+E: 0
+ally_mess: fell asleep!
+enem_mess: fell asleep!
+alre_mess: is already asleep!
+regu_mess: is still sleeping...
+reco_mess: woke up!
+nat_heal_trn: 1
+nat_heal_cha: 25
+hit_heal_cha: 50
+
+index: 8
+name: Bind
+class: combat
+priority: 56
+limit: battle
+A: 80
+B: 60
+C: 40
+D: 20
+E: 0
+ally_mess: was constricted!
+enem_mess: was constricted!
+alre_mess: is already constricted!
+regu_mess: can't move!
+reco_mess: can move again!
+nat_heal_trn: 1
+nat_heal_cha: 30
+hit_heal_cha: 30
+
+index: 9
+name: Dizzy
+class: combat
+priority: 40
+limit: battle
+A: 50
+B: 40
+C: 30
+D: 20
+E: 0
+ally_mess: wobbled and fell over!
+enem_mess: wobbled and fell over!
+regu_mess: is dizzy...
+reco_mess: is dizzy...
+nat_heal_trn: 0
+nat_heal_cha: 100
+
+index: 10
+name: Fear
+class: combat
+priority: 40
+limit: battle
+A: 60
+B: 40
+C: 25
+D: 10
+E: 0
+ally_mess: froze up in fear!
+enem_mess: froze up in fear!
+regu_mess: is watching closely...
+reco_mess: is watching closely...
+nat_heal_trn: 0
+nat_heal_cha: 100
+
+index: 11
+name: Timestop
+class: combat
+priority: 99
+limit: battle
+A: 100
+B: 100
+C: 100
+D: 100
+E: 0
+ally_mess: was stopped in their tracks!
+enem_mess: was stopped in their tracks!
+nat_heal_trn: 5
+nat_heal_cha: 100
+stat_half: dur
+stat_half: spe
+
+index: 12
+name: Paralyze
+class: combat
+priority: 56
+limit: battle
+A: 80
+B: 60
+C: 40
+D: 20
+E: 0
+ally_mess: became paralyzed!
+enem_mess: became paralyzed!
+alre_mess: is already paralyzed!
+regu_mess: is paralyzed and can't move!
+reco_mess: recovered from paralysis!
+nat_heal_trn: 3
+nat_heal_cha: 30
+
+index: 13
+name: Dissolve
+class: combat
+priority: 55
+limit: restriction
+A: 90
+B: 70
+C: 50
+D: 30
+E: 0
+ally_mess: is being digested!
+enem_mess: is being digested!
+alre_mess: is already being digested!
+reco_mess: is no longer being digested!
+nat_heal_trn: 1
+nat_heal_cha: 30
+hit_heal_cha: 20
+stat_half: dur
+HP_down_trn_pc: 20
+HP_down_trn_pt: 1
+
+index: 14
+name: Magnet
+class: movement
+priority: 60
+limit: restriction
+A: 90
+B: 70
+C: 50
+D: 30
+ally_mess: became a magnet!
+enem_mess: became a magnet!
+alre_mess: is already magnetic!
+regu_mess: was hit by flying metal!
+reco_mess: is no longer magnetic!
+stat_half: spe
+HP_down_trn_pc: 5
+HP_down_trn_pt: 1
+HP_down_map_st: 4
+HP_down_map_pt: 1
+
+index: 15
+name: Eagle
+class: combat
+priority: 55
+limit: restriction
+A: 100
+B: 90
+C: 70
+D: 30
+E: 0
+ally_mess: is being mobbed by an eagle!
+enem_mess: is being mobbed by an eagle!
+alre_mess: is already being mobbed!
+regu_mess: was swooped upon by an eagle!
+reco_mess:'s eagle pursuer gave up.
+nat_heal_trn: 3
+nat_heal_cha: 30
+hit_rate: 90
+HP_down_trn_pc: 10
+HP_down_trn_pt: 1
+
+index: 16
+name: Specials
+class: combat
+priority: 55
+limit: restriction
+A: 100
+B: 90
+C: 70
+D: 20
+E: 0
+ally_mess: is surrounded!
+enem_mess: is surrounded!
+alre_mess: is already surrounded!
+regu_mess: was attacked by the Specials!
+reco_mess: broke through the barrier!
+nat_heal_trn: 1
+nat_heal_cha: 50
+hit_rate: 80
+stat_half: pow
+stat_half: dur
+stat_half: spi
+stat_half: spe
+HP_down_trn_pc: 10
+HP_down_trn_pt: 1
+
+index: 17
+name: Stand Pursued
+class: combat
+priority: 55
+limit: restriction
+A: 100
+B: 90
+C: 50
+D: 30
+E: 0
+ally_mess: is being pursued by a Stand!
+enem_mess: is being pursued by a Stand!
+alre_mess: is already being pursued!
+regu_mess:'s pursuer suddenly attacked!
+reco_mess:'s pursuer gave up.
+nat_heal_trn: 3
+nat_heal_cha: 10
+hit_rate: 95
+HP_down_trn_pc: 3
+HP_down_trn_pt: 1
+MP_down_trn_pc: 1
+
+index: 18
+name: Insects
+class: combat
+priority: 54
+limit: restriction
+A: 100
+B: 90
+C: 50
+D: 30
+E: 0
+ally_mess: is now covered in insects!
+enem_mess: is now covered in insects!
+alre_mess: is already covered!
+regu_mess: was damaged by the insects!
+reco_mess:'s insects went away.
+nat_heal_trn: 3
+nat_heal_cha: 10
+hit_heal_cha: 20
+hit_rate: 80
+stat_half: spe
+HP_down_trn_pc: 2
+HP_down_trn_pt: 1
+MP_down_trn_pc: 2
+
+index: 19
+name: Barnacle
+class: combat
+priority: 60
+limit: restriction
+A: 75
+B: 60
+C: 40
+D: 20
+E: 0
+ally_mess: is now covered in barnacles!
+enem_mess: is now covered in barnacles!
+alre_mess: is already covered!
+reco_mess: got rid of the barnacles!
+stat_half: pow
+stat_half: dur
+stat_half: spe
+HP_down_trn_pc: 2
+HP_down_trn_pt: 1
+
+index: 20
+name: Bugs
+class: combat
+priority: 56
+limit: restriction
+A: 100
+B: 100
+C: 50
+D: 30
+E: 0
+ally_mess: is now covered in insects!
+enem_mess: is now covered in insects!
+alre_mess: is already covered!
+regu_mess: is being eaten by insects!
+reco_mess:'s insects went away.
+nat_heal_trn: 3
+nat_heal_cha: 10
+hit_heal_cha: 5
+HP_down_trn_pc: 7
+HP_down_trn_pt: 1
+
+index: 21
+name: Swarmed
+class: combat
+priority: 55
+limit: restriction
+A: 100
+B: 100
+C: 50
+D: 30
+E: 0
+ally_mess: is now being swarmed by insects!
+enem_mess: is now being swarmed by insects!
+alre_mess: is already being swarmed!
+regu_mess: was attacked by the swarm!
+reco_mess:'s insect pursuers gave up.
+nat_heal_trn: 3
+nat_heal_cha: 10
+hit_heal_cha: 5
+hit_rate: 75
+HP_down_trn_pc: 5
+HP_down_trn_pt: 1
+
+index: 22
+name: No Sword
+class: combat
+priority: 80
+limit: restriction
+A: 90
+B: 70
+C: 50
+D: 30
+E: 0
+ally_mess: dropped their sword!
+enem_mess: dropped their sword!
+alre_mess: already dropped their sword!
+reco_mess: recovered their sword!
+nat_heal_trn: 3
+nat_heal_cha: 30
+stat_half: pow
+cant_use: hit
+stop_hit: 1
+
+index: 23
+name: Can't Find
+class: combat
+priority: 52
+limit: restriction
+A: 100
+B: 80
+C: 50
+D: 30
+E: 0
+ally_mess: lost sight of the enemy!
+enem_mess: lost sight of the enemy!
+alre_mess: can't find the enemy!
+reco_mess: tracked down the enemy!
+nat_heal_trn: 2
+nat_heal_cha: 15
+hit_heal_cha: 20
+hit_rate: 5
+
+index: 24
+name: Distract
+class: combat
+priority: 48
+limit: restriction
+A: 100
+B: 90
+C: 90
+D: 30
+E: 0
+ally_mess: was distracted by something!
+enem_mess: was distracted by something!
+alre_mess: is distracted!
+reco_mess: noticed the enemy's presence!
+nat_heal_trn: 3
+nat_heal_cha: 30
+hit_heal_cha: 30
+hit_rate: 20
+
+index: 25
+name: Drunk
+class: combat
+priority: 53
+limit: enemy
+A: 60
+B: 40
+C: 20
+D: 10
+E: 0
+ally_mess: got drunk!
+enem_mess: got drunk!
+alre_mess: is already drunk!
+regu_mess: is drunk!
+reco_mess: sobered up!
+nat_heal_trn: 0
+nat_heal_cha: 50
+hit_heal_cha: 50
+hit_rate: 50
+stat_half: pow
+stat_half: dur
+stat_half: spi
+stat_half: spe
+
+index: 26
+name: No Senses
+class: combat
+priority: 52
+limit: restriction
+A: 100
+B: 90
+C: 50
+D: 30
+E: 0
+ally_mess:'s five senses were sealed!
+enem_mess:'s five senses were sealed!
+alre_mess: is already desensitized!
+reco_mess: regained use of their senses!
+nat_heal_trn: 3
+nat_heal_cha: 10
+hit_heal_cha: 10
+hit_rate: 50
+stat_half: pow
+stat_half: dur
+stat_half: spi
+stat_half: spe
+
+index: 27
+name: Blowback
+class: combat
+priority: 40
+limit: battle
+A: 40
+B: 30
+C: 20
+D: 10
+E: 0
+ally_mess: was sent flying!
+enem_mess: was sent flying!
+alre_mess: has been sent flying!
+regu_mess: crashed into the wall!
+reco_mess: crashed into the wall!
+nat_heal_trn: 0
+nat_heal_cha: 100
+HP_down_trn_pc: 1
+
+index: 28
+name: Ripple
+class: combat
+priority: 42
+limit: restriction
+A: 60
+B: 40
+C: 30
+D: 20
+E: 0
+ally_mess: was singed by a Ripple!
+enem_mess: was signed by a Ripple!
+alre_mess: is already singed by Ripple!
+regu_mess: is hurt by their burns!
+reco_mess: shook off the Ripple attack!
+nat_heal_trn: 1
+nat_heal_cha: 50
+hit_heal_cha: 50
+HP_down_trn_pc: 5
+HP_down_trn_pt: 1
+MP_down_trn_pc: 1
+
+index: 29
+name: Dream
+class: combat
+priority: 52
+limit: restriction
+A: 90
+B: 70
+C: 50
+D: 30
+E: 0
+ally_mess:'s Stand won't appear!
+enem_mess:'s Stand won't appear!
+alre_mess:'s Stand is already gone!
+reco_mess: regained use of their Stand!
+cant_use: hit
+cant_use: mind
+
+index: 30
+name: Frozen
+class: combat
+priority: 56
+limit: battle
+A: 40
+B: 30
+C: 20
+D: 10
+E: 0
+ally_mess: became frozen in ice!
+enem_mess: became frozen in ice!
+alre_mess: is already frozen!
+regu_mess: is frozen and can't move!
+reco_mess: thawed out!
+nat_heal_trn: 1
+nat_heal_cha: 60
+hit_heal_cha: 30
+stat_half: dur
+
+index: 31
+name: Pursued
+class: combat
+priority: 50
+limit: restriction
+A: 100
+B: 90
+C: 80
+D: 40
+E: 0
+ally_mess: is being pursued!
+enem_mess: is being pursued!
+alre_mess: is already being pursued!
+reco_mess: is running for their life!
+nat_heal_trn: 1
+nat_heal_cha: 80
+hit_heal_cha: 30
+hit_rate: 70
+stat_half: spe
+cant_use: hit
+stop_hit: 5
+cant_use: mind
+stop_hit: 5
+HP_down_trn_pc: 1
+MP_down_trn_pc: 1
+
+index: 32
+name: On Fire
+class: combat
+priority: 56
+limit: restriction
+A: 50
+B: 40
+C: 30
+D: 20
+E: 0
+ally_mess: was engulfed in flames!
+enem_mess: was engulfed in flames!
+alre_mess: is already on fire!
+regu_mess: is on fire!
+reco_mess: put out the flames!
+nat_heal_trn: 1
+nat_heal_cha: 45
+hit_heal_cha: 30
+HP_down_trn_pc: 3
+HP_down_trn_pt: 1
+
+index: 33
+name: Surge
+class: combat
+priority: 56
+limit: battle
+A: 40
+B: 30
+C: 20
+D: 10
+E: 0
+ally_mess: was paralyzed by the surge!
+enem_mess: was paralyzed by the surge!
+alre_mess: is already shocked!
+regu_mess: is paralyzed and can't move!
+reco_mess: recovered from the shock!
+nat_heal_trn: 1
+nat_heal_cha: 90
+hit_heal_cha: 30
+HP_down_trn_pc: 2
+HP_down_trn_pt: 1
+
+index: 34
+name: No Breath
+class: combat
+priority: 56
+limit: restriction
+A: 40
+B: 30
+C: 20
+D: 10
+E: 0
+ally_mess:'s breathing is pained!
+enem_mess:'s breathing is pained!
+alre_mess: already can't breathe!
+regu_mess:'s breathing is pained!
+reco_mess: can breathe again!
+nat_heal_trn: 1
+nat_heal_cha: 50
+hit_heal_cha: 50
+hit_rate: 80
+stat_half: spi
+HP_down_trn_pc: 3
+HP_down_trn_pt: 1
+MP_down_trn_pc: 3
+MP_down_trn_pt: 1
+
+index: 35
+name: Digest
+class: combat
+priority: 55
+limit: restriction
+A: 90
+B: 70
+C: 50
+D: 30
+E: 0
+ally_mess: is being digested!
+enem_mess: is being digested!
+alre_mess: is already being digested!
+regu_mess: is being digested!
+reco_mess: is no longer being digested!
+nat_heal_trn: 1
+nat_heal_cha: 30
+hit_heal_cha: 20
+stat_half: pow
+stat_half: dur
+HP_down_trn_pc: 10
+HP_down_trn_pt: 5
+
+index: 36
+name: Bleeding
+class: movement
+priority: 56
+limit: restriction
+A: 15
+B: 10
+C: 5
+D: 3
+E: 0
+ally_mess: started bleeding heavily!
+enem_mess: started bleeding heavily!
+alre_mess: is already bleeding!
+regu_mess: can't stop the bleeding!
+reco_mess:'s bleeding stopped!
+HP_down_trn_pc: 20
+HP_down_trn_pt: 5
+HP_down_map_st: 5
+HP_down_map_pt: 15
+MP_down_trn_pc: 10
+MP_down_map_st: 5
+MP_down_map_pt: 2
+
+index: 37
+name: Surround
+class: combat
+priority: 55
+limit: restriction
+A: 100
+B: 90
+C: 70
+D: 20
+E: 0
+ally_mess: was surrounded!
+enem_mess: was surrounded!
+alre_mess: is already surrounded!
+regu_mess:'s assailants attacked!
+reco_mess: broke free!
+nat_heal_trn: 1
+nat_heal_cha: 50
+hit_rate: 85
+HP_down_trn_pc: 6
+HP_down_trn_pt: 1
+MP_down_trn_pc: 1
+MP_down_trn_pt: 1
+
+index: 38
+name: Puppet
+class: combat
+priority: 54
+limit: ally
+A: 80
+B: 60
+C: 40
+D: 20
+E: 0
+ally_mess: is being controlled!
+enem_mess: is being controlled!
+alre_mess: is already under control!
+reco_mess: broke free of the control!
+nat_heal_trn: 1
+nat_heal_cha: 10
+hit_heal_cha: 20
+hit_rate: 90
+stat_half: dur
+
+index: 39
+name: Weak
+class: combat
+priority: 50
+limit: restriction
+A: 100
+B: 80
+C: 60
+D: 30
+E: 0
+ally_mess: was weakened
+enem_mess: was weakened
+reco_mess: regained their strength!
+nat_heal_trn: 1
+hit_rate: 80
+stat_half: pow
+stat_half: dur
+stat_half: spi
+stat_half: spe
+cant_use: hit
+stop_hit: 0
+cant_use: mind
+stop_hit: 0
+
+index: 40
+name: Flesh Bud
+class: combat
+priority: 54
+limit: ally
+A: 100
+B: 80
+C: 60
+D: 20
+E: 0
+ally_mess: had a flesh bud attached!
+enem_mess: had a flesh bud attached!
+alre_mess: is already being brainwashed!
+regu_mess: is being brainwashed!
+reco_mess:'s flesh bud disappeared!
+nat_heal_trn: 1
+nat_heal_cha: 5
+hit_heal_cha: 30
+
+index: 41
+name: Charm
+class: combat
+priority: 40
+limit: battle
+A: 100
+B: 85
+C: 70
+D: 40
+E: 0
+ally_mess: became captivated!
+enem_mess: became captivated!
+alre_mess: is already captivated!
+regu_mess: is fascinated by something...
+reco_mess: is fascinated by something...
+nat_heal_trn: 3
+nat_heal_cha: 100
+hit_heal_cha: 20
+
+index: 42
+name: Stopped
+class: combat
+priority: 56
+limit: battle
+A: 100
+B: 85
+C: 70
+D: 40
+E: 0
+ally_mess: can no longer move!
+enem_mess: was stopped in their tracks!
+alre_mess: is already stopped!
+regu_mess: can't move!
+reco_mess: can move again!
+nat_heal_trn: 1
+nat_heal_cha: 40
+hit_heal_cha: 20
+
+index: 43
+name: Child
+class: movement
+priority: 50
+limit: restriction
+A: 90
+B: 70
+C: 50
+D: 30
+E: 0
+ally_mess: was turned into a child!
+enem_mess: became younger!
+hit_rate: 85
+stat_half: pow
+stat_half: dur
+stat_half: spi
+stat_half: spe
+cant_use: hit
+cant_use: mind
+
+index: 44
+name: Pressure
+class: combat
+priority: 56
+limit: battle
+A: 80
+B: 60
+C: 40
+D: 20
+E: 0
+ally_mess: can no longer move!
+enem_mess: was stopped in their tracks!
+alre_mess: is already under pressure!
+regu_mess: can't move!
+reco_mess: can move again!
+nat_heal_trn: 2
+nat_heal_cha: 20
+hit_heal_cha: 20
+stat_half: spe
+
+index: 45
+name: Mummy
+class: movement
+priority: 50
+limit: restriction
+A: 90
+B: 70
+C: 50
+D: 30
+E: 0
+ally_mess: is being mummified!
+enem_mess: is being mummified!
+alre_mess: is losing moisture!
+reco_mess:'s mummification healed!
+HP_down_trn_pc: 5
+HP_down_trn_pt: 1
+HP_down_map_st: 10
+HP_down_map_pt: 1
+MP_down_trn_pc: 2
+MP_down_trn_pt: 1
+MP_down_map_st: 10
+MP_down_map_pt: 1
+
+index: 46
+name: Stop
+class: combat
+priority: 56
+limit: battle
+A: 100
+B: 80
+C: 60
+D: 50
+E: 0
+ally_mess: can't move!
+enem_mess: can't move!
+alre_mess: is already stopped!
+regu_mess: is still unable to move...
+reco_mess: can move again!
+nat_heal_trn: 2
+nat_heal_cha: 40
+hit_heal_cha: 20
+
+index: 47
+name: Dying
+class: combat
+priority: 50
+limit: restriction
+A: 50
+B: 30
+C: 20
+D: 10
+E: 1
+ally_mess: took life-threatening damage!
+enem_mess: took life-threatening damage!
+reco_mess: regained the will to fight!
+nat_heal_trn: 1
+nat_heal_cha: 1
+hit_rate: 90
+stat_half: pow
+stat_half: dur
+stat_half: spi
+stat_half: spe
+HP_down_trn_pc: 3
+
+index: 48
+name: Mind Read
+class: combat
+priority: 50
+limit: restriction
+A: 100
+B: 80
+C: 50
+D: 30
+E: 0
+ally_mess: had their heart read!
+enem_mess: had their heart read!
+alre_mess:'s heart has been read!
+hit_rate: 5
+
+index: 49
+name: Go Easy
+class: combat
+priority: 50
+limit: restriction
+A: 20
+B: 15
+C: 10
+D: 5
+E: 0
+ally_mess: withheld their power!
+enem_mess: withheld their power!
+reco_mess: stopped going easy!
+nat_heal_trn: 1
+hit_heal_cha: 5
+hit_rate: 90
+stat_half: pow
+
+index: 50
+name: Erase Time
+class: combat
+priority: 99
+limit: battle
+A: 100
+B: 100
+C: 100
+D: 100
+E: 0
+reco_mess:: "!!"
+stat_half: dur
+stat_half: spi
+stat_half: spe
+
+index: 51
+name: Invincible
+class: combat
+priority: 50
+limit: restriction
+A: 100
+B: 80
+C: 60
+D: 30
+E: 0
+nat_heal_trn: 5
+cant_use: hit
+stop_hit: 3
+cant_use: mind
+stop_mind: 3
+
+index: 52
+name: Predict
+class: combat
+priority: 60
+limit: restriction
+A: 100
+B: 100
+C: 100
+D: 100
+E: 100
+ally_mess:'s actions were predicted!
+enem_mess:'s actions were predicted!
+reco_mess:: "...!?"
+nat_heal_trn: 2
+nat_heal_cha: 100
+hit_rate: 0
+stat_half: pow
+stat_half: dur
+stat_half: spi
+stat_half: spe
+
+index: 53
+name: Time Stop
+class: combat
+priority: 99
+limit: battle
+A: 100
+B: 100
+C: 100
+D: 100
+E: 0
+ally_mess:'s time was stopped!
+enem_mess:'s time was stopped!
+reco_mess:'s time resumed...!
+nat_heal_trn: 3
+nat_heal_cha: 100
+stat_half: dur
+stat_half: spi
+stat_half: spe
+
+index: 54
+name: 1sec Stop
+class: combat
+priority: 60
+limit: battle
+A: 100
+B: 80
+C: 60
+D: 30
+E: 0
+reco_mess: regained movement!
+nat_heal_trn: 1
+nat_heal_cha: 100
+
+index: 55
+name: Off Guard
+class: combat
+priority: 45
+limit: restriction
+A: 80
+B: 60
+C: 40
+D: 20
+E: 0
+ally_mess: let their guard down!
+enem_mess: let their guard down!
+alre_mess: is already off their guard!
+regu_mess: was caught off guard!
+reco_mess: got ahold of themselves!
+nat_heal_trn: 1
+nat_heal_cha: 40
+hit_heal_cha: 99
+hit_rate: 90
+stat_half: spi
+stat_half: dur
+
+index: 56
+name: Solv Time
+class: combat
+priority: 60
+limit: battle
+A: 100
+B: 80
+C: 60
+D: 30
+E: 0
+regu_mess: has a big grin on their face.
+reco_mess: has a big grin on their face.
+nat_heal_trn: 1
+nat_heal_cha: 100
+
+index: 57
+name: Change
+class: combat
+priority: 60
+limit: battle
+A: 100
+B: 80
+C: 60
+D: 30
+E: 0
+ally_mess: is thinking...
+enem_mess: is thinking...
+reco_mess: changed position!
+nat_heal_trn: 1
+nat_heal_cha: 100
+
+index: 58
+name: Dreaming
+class: combat
+priority: 50
+limit: restriction
+A: 100
+B: 80
+C: 60
+D: 30
+E: 0
+cant_use: hit
+cant_use: mind
+
+index: 59
+name: Hold Back
+class: combat
+priority: 56
+limit: battle
+A: 40
+B: 30
+C: 15
+D: 10
+E: 0
+ally_mess: is holding back!
+enem_mess: is holding back!
+regu_mess: is enduring the attack!
+reco_mess:'s patience is at its limit!
+nat_heal_cha: 10
+hit_heal_cha: 10
+
+index: 60
+name: Tired
+class: movement
+priority: 56
+limit: restriction
+A: 100
+B: 80
+C: 60
+D: 50
+E: 0
+ally_mess: is weakened by exhaustion!
+enem_mess: is weakened by exhaustion!
+reco_mess: recovered from exhaustion!
+stat_half: spe
+HP_down_trn_pc: 5
+HP_down_map_st: 3
+HP_down_map_pt: 1
+MP_down_trn_pc: 5
+MP_down_map_st: 3
+MP_down_map_pt: 1
+
+index: 61
+name: Bashful
+class: combat
+priority: 50
+limit: battle
+A: 100
+B: 80
+C: 60
+D: 30
+E: 0
+ally_mess: became embarrassed...
+enem_mess: became embarrassed...
+alre_mess: is already embarrassed!
+regu_mess: is blushing intensely!
+reco_mess: got over their embarrassment!
+nat_heal_trn: 1
+nat_heal_cha: 100
+
+index: 62
+name: Corrode
+class: combat
+priority: 50
+limit: restriction
+A: 20
+B: 15
+C: 10
+D: 5
+E: 0
+ally_mess: is being corroded!
+enem_mess: is being corroded!
+reco_mess:'s corrosion stopped!
+nat_heal_trn: 2
+nat_heal_cha: 10
+stat_half: dur
+HP_down_trn_pc: 1
+HP_down_trn_pt: 1
+
+index: 63
+name: Stomachache
+class: movement
+priority: 40
+limit: restriction
+A: 30
+B: 0
+C: 0
+D: 0
+E: 0
+ally_mess: got a stomachache!
+enem_mess: got a stomachache!
+alre_mess: already has a stomachache!
+regu_mess: is hurt from the stomachache!
+reco_mess:'s stomach feels better!
+nat_heal_cha: 10
+hit_rate: 90
+stat_half: spi
+HP_down_trn_pc: 1
+HP_down_trn_pt: 1
+HP_down_map_st: 10
+HP_down_map_pt: 1
+MP_down_trn_pc: 1
+MP_down_map_st: 10
+MP_down_map_pt: 1
+
+index: 64
+name: Sick
+class: movement
+priority: 41
+limit: restriction
+A: 30
+B: 0
+C: 0
+D: 0
+E: 0
+ally_mess:'s health is deteriorating!
+enem_mess:'s health is deteriorating!
+alre_mess: is already in poor health!
+regu_mess: looks ill...
+reco_mess: feels well again!
+nat_heal_cha: 10
+hit_rate: 90
+stat_half: spi
+HP_down_trn_pc: 1
+HP_down_trn_pt: 1
+HP_down_map_st: 10
+HP_down_map_pt: 1
+MP_down_trn_pc: 1
+MP_down_map_st: 10
+MP_down_map_pt: 1
+
+index: 65
+name: Hungry
+class: movement
+priority: 39
+limit: enemy
+A: 80
+B: 60
+C: 40
+D: 20
+E: 0
+ally_mess: is starving!
+enem_mess: is starving!
+alre_mess: is already hungry!
+regu_mess: doubled over from hunger!
+reco_mess: is no longer hungry!
+nat_heal_trn: 1
+hit_heal_cha: 25
+hit_rate: 99
+stat_half: dur
+stat_half: spi
+HP_down_trn_pt: 1
+HP_down_map_st: 20
+HP_down_map_pt: 1
+MP_down_trn_pt: 1
+MP_down_map_st: 20
+MP_down_map_pt: 1
+
+index: 66

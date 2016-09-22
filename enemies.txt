@@ -1,0 +1,88 @@
+index: 1
+name: Delinquent
+HP: 20
+SP: 20
+pow: 20
+dur: 5
+spi: 1
+spe: 20
+exp: 10
+yen: 40
+item: G.E. Coffee
+item_cha: 20
+crit: 0
+dist: 1
+Physical: 5
+Fire: 4
+Ice: 4
+Electric: 3
+Water: 3
+Earth: 4
+Wind: 4
+Light: 3
+Dark: 3
+Status: K.O.: 3
+Status: Poison: 3
+Status: Darkness: 3
+Status: Sealed: 4
+Status: Berserk: 4
+Status: Confused: 4
+Status: Sleeping: 3
+Status: Bind: 4
+Status: Dizzy: 4
+Status: Fear: 5
+Status: Timestop: 4
+Status: Paralyze: 1
+Status: Dissolve: 4
+Status: Magnet: 4
+Status: Eagle: 4
+Status: Specials: 4
+Status: Stand Pursued: 4
+Status: Insects: 4
+Status: Barnacle: 4
+Status: Bugs: 4
+Status: Swarmed: 4
+Status: No Sword: 4
+Status: Can't Find: 4
+Status: Distract: 5
+Status: Drunk: 4
+Status: No Senses: 4
+Status: Blowback: 4
+Status: Ripple: 4
+Status: Dream: 4
+Status: Frozen: 4
+Status: Pursued: 4
+Status: On Fire: 4
+Status: Surge: 4
+Status: No Breath: 4
+Status: Digest: 4
+Status: Bleeding: 4
+Status: Surround: 4
+Status: Puppet: 4
+Status: Weak: 4
+Status: Flesh Bud: 4
+Status: Charm: 4
+Status: Stopped: 4
+Status: Child: 4
+Status: Pressure: 4
+Status: Mummy: 4
+Status: Stop: 4
+Status: Dying: 4
+Status: Mind Read: 4
+Status: Go Easy: 4
+Status: Erase Time: 4
+Status: Incincible: 4
+Status: Predict: 4
+Status: Time Stop: 4
+Status: 1sec Stop: 4
+Status: Off Guard: 4
+Status: Solv Time: 4
+Status: Change: 4
+Status: Dreaming: 4
+Status: Hold Back: 4
+Status: Tired: 4
+Status: Bashful: 4
+Status: Corrode: 4
+Status: Stomachache: 4
+Status: Sick: 4
+Status: Hungry: 4

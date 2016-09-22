@@ -1,0 +1,112 @@
+index: 1
+name: Josuke
+stand: Crazy Diamond
+init_lvl: 1
+exp: 0
+exp_next: 100
+HP: 57
+SP: 42
+pow: 21
+dur: 26
+spi: 20
+spe: 30
+HP_max: 898
+SP_max: 735
+pow_max: 236
+dur_max: 161
+spi_max: 300
+spe_max: 328
+crit: 30
+dist: 1
+L:2  Light Heal
+L:2  Light Heal Party
+L:2  Cardiac Massage
+L:2  Stone Throw
+L:2  Barrage Rush
+L:4  Angry Healing
+L:7  Mach Rush
+L:9  Heal
+L:10 DORA Rush
+L:14 Ball Bearing
+L:15 Heal Party
+L:18 Reconstruct
+L:20 Return to Original
+L:25 Full Restore
+L:28 Homing Projectile
+L:30 Assault
+L:35 DORA DORA Rush
+L:50 Push it to the Limit
+Physical: 3
+Fire: 3
+Ice: 3
+Electric: 3
+Water: 3
+Earth: 3
+Wind: 3
+Light: 3
+Dark: 3
+Status: K.O.: 3
+Status: Poison: 3
+Status: Darkness: 3
+Status: Sealed: 3
+Status: Berserk: 4
+Status: Confused: 3
+Status: Sleeping: 3
+Status: Bind: 3
+Status: Dizzy: 3
+Status: Fear: 2
+Status: Timestop: 3
+Status: Paralyze: 3
+Status: Dissolve: 3
+Status: Magnet: 3
+Status: Eagle: 3
+Status: Specials: 3
+Status: Stand Pursued: 3
+Status: Insects: 3
+Status: Barnacle: 3
+Status: Bugs: 3
+Status: Swarmed: 3
+Status: No Sword: 3
+Status: Can't Find: 3
+Status: Distract: 3
+Status: Drunk: 3
+Status: No Senses: 3
+Status: Blowback: 3
+Status: Ripple: 3
+Status: Dream: 3
+Status: Frozen: 3
+Status: Pursued: 1
+Status: On Fire: 2
+Status: Surge: 3
+Status: No Breath: 3
+Status: Digest: 3
+Status: Bleeding: 3
+Status: Surround: 3
+Status: Puppet: 3
+Status: Weak: 3
+Status: Flesh Bud: 3
+Status: Charm: 3
+Status: Stopped: 3
+Status: Child: 3
+Status: Pressure: 3
+Status: Mummy: 3
+Status: Stop: 3
+Status: Dying: 3
+Status: Mind Read: 3
+Status: Go Easy: 3
+Status: Erase Time: 3
+Status: Invincible: 3
+Status: Predict: 3
+Status: Time Stop: 3
+Status: 1sec Stop: 3
+Status: Off Guard: 4
+Status: Solv Time: 3
+Status: Change: 3
+Status: Dreaming: 3
+Status: Hold Back: 3
+Status: Tired: 3
+Status: Bashful: 3
+Status: Corrode: 3
+Status: Stomachache: 3
+Status: Sick: 3
+Status: Hungry: 3
